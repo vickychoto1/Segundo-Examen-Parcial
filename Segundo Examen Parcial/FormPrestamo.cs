@@ -12,9 +12,9 @@ namespace Segundo_Examen_Parcial
 {
     public partial class FormPrestamo : Form
     {
-        List<Libro> libros = new List<Libro>();
         List<Lector> lectores = new List<Lector>();
         List<Prestamo> prestamos = new List<Prestamo>();
+        List<Libro> libros = new List<Libro>();
         public FormPrestamo()
         {
             InitializeComponent();
@@ -30,7 +30,9 @@ namespace Segundo_Examen_Parcial
         }
         private void botonreporte_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            FormReporte formReporte = new FormReporte();
+            formReporte.Show(Owner);
         }
 
         private void cmbCodigo_SelectedIndexChanged(object sender, EventArgs e)
