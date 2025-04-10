@@ -45,6 +45,7 @@
             this.botonreporte.TabIndex = 7;
             this.botonreporte.Text = "Reporte";
             this.botonreporte.UseVisualStyleBackColor = false;
+            this.botonreporte.Click += new System.EventHandler(this.botonreporte_Click);
             // 
             // botonprestamos
             // 
@@ -57,6 +58,7 @@
             this.botonprestamos.TabIndex = 6;
             this.botonprestamos.Text = "Prestamos";
             this.botonprestamos.UseVisualStyleBackColor = false;
+            this.botonprestamos.Click += new System.EventHandler(this.botonprestamos_Click);
             // 
             // botonlectores
             // 
@@ -69,6 +71,7 @@
             this.botonlectores.TabIndex = 5;
             this.botonlectores.Text = "Lectores";
             this.botonlectores.UseVisualStyleBackColor = false;
+            this.botonlectores.Click += new System.EventHandler(this.botonlectores_Click);
             // 
             // botonlibros
             // 
@@ -81,6 +84,7 @@
             this.botonlibros.TabIndex = 4;
             this.botonlibros.Text = "Libros";
             this.botonlibros.UseVisualStyleBackColor = false;
+            this.botonlibros.Click += new System.EventHandler(this.botonlibros_Click);
             // 
             // Form1
             // 
